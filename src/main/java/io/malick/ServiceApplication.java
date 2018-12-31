@@ -19,7 +19,7 @@ public class ServiceApplication {
 		SpringApplication.run(ServiceApplication.class, args);
 	}
 	
-	@RequestMapping("/root")
+	@RequestMapping("/")
 	public String message(){
 		return "Hello from " + instance ;
 	}
